@@ -1,0 +1,152 @@
+body{
+    font-family:'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight:400;
+    position: relative;
+    background-color: #fff;
+}
+.header{
+    padding:15px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index:200;
+}
+.header .menu ul li{
+    display:inline-block;
+    padding: 15px;
+    color:white;
+    font-family:'Poppins', sans-serif;
+    font-size:17px;
+}
+.header .menu{
+    float: right;
+}
+.getButton a{
+    border-radius:25px;
+    background:red;
+    color:whitesmoke;
+    padding: 10px 30px;
+    
+}
+.about{
+    background:#ffcf10;
+    height:900px;
+    position: relative;
+}
+.about-left{
+    margin:200px 50px;
+    padding:50px 50px;
+}
+.about-right{
+margin:90px 5px;
+padding:36px 0px;
+}
+.about-left h1{
+    margin-bottom:20px;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 1.2;
+    margin: 0 0 10px;
+    letter-spacing: -0.05em;
+}
+.cv a{
+    background: black;
+    color:#fff;
+    line-height: 80px;
+    padding:20px;
+    font-weight: 600;
+    font-size:18;
+ 
+}
+.yellow{
+    background: #ffcf10
+}
+.haqqinda{
+    margin-top:60px;
+}
+
+
+.about2 h1{
+    text-align: center;
+    font-size:40px;
+    font-family: 'Poppins', sans-serif;
+}
+.about3{
+    position: relative;
+    height: 800px;
+    background: #ffcf10;
+}
+.portfolio{
+    text-align: center;
+    margin-top:80px;
+    background:#eef3f9;
+}
+.portfolio h1{
+    font-size:60px;
+}
+.ab-img{
+    background-image: url(http://wowthemez.com/templates/gabbar/img/about.png);
+    height:890px;
+    width:573px;
+    right:-140px;
+    top:0;
+    position: absolute;
+
+}
+.about3{
+    position:relative;
+    background: #ed305d;
+    height:890px;
+}
+.about3 h1{
+    color: #fff;
+    font-size: 80px;
+    transform: rotate(-90deg);
+    display: block;
+    text-transform: uppercase;
+    margin: 0 0 0 -450px;
+    
+}
+.content{
+    overflow:hidden;
+}
+
+
+
+
+@media (max-width:1200px){
+    .about-right{
+        display: block;
+        
+    }
+}
+
+@media (max-width:992px){
+    .about-right{
+        display: block;
+        
+    }
+}
+@media (max-width:768px){
+    .about-right{
+        display: block;
+      
+    }
+.col4{
+    width: 100%
+}
+.col5{
+    width: 100%;
+}
+.img{
+    width: 100%;
+}
+}
+@media (max-width:576px){
+    .about-right{
+        display: none;
+    }
+
+    }
